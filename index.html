@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica Fecha</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/styles/index.css">
+</head>
+<body>
+    <main class="bg-dark text-white text-center py-5" style="min-height: 100vh;">
+        <h1>Práctica Fecha</h1>
+        <h2 class="text-warning">Introduce una fecha</h2>
+        <div class="row my-5 d-flex justify-content-center" id="date">
+            <input  type="number" class="col-2" id="day" placeholder="Día" min="1" max="31">
+            <select  class="form-select" style="max-width:20%;">
+                <option selected value="1">Enero</option>
+                <option value="2">Febrero</option>
+                <option value="3">Marzo</option>
+                <option value="4">Abril</option>
+                <option value="5">Mayo</option>
+                <option value="6">Junio</option>
+                <option value="7">Julio</option>
+                <option value="8">Agosto</option>
+                <option value="9">Septiembre</option>
+                <option value="10">Octubre</option>
+                <option value="11">Noviembre</option>
+                <option value="12">Diciembre</option>
+              </select>
+              <input type="number" class="col-2" id="year" placeholder="Año" min="1">
+        </div>
+        <button id="calculateDate" type="button" class="btn btn-primary col-4">Calcular</button>
+        <p id="dateInformation" class="my-5"></p>
+    </main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>

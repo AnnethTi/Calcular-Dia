@@ -1,0 +1,7 @@
+input, select, option{
+    background-color: gainsboro;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid gainsboro;
+    margin: 5px;
+}
