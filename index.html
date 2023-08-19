@@ -11,9 +11,9 @@
     <main class="bg-dark text-white text-center py-5" style="min-height: 100vh;">
         <h1>Práctica Fecha</h1>
         <h2 class="text-warning">Introduce una fecha</h2>
-        <div class="row my-5 d-flex justify-content-center" id="date">
-            <input  type="number" class="col-2" id="day" placeholder="Día" min="1" max="31">
-            <select  class="form-select" style="max-width:20%;">
+        <div class="my-5 d-flex justify-content-center" id="date">
+            <input  type="text" class="col-3  m-2" id="day" placeholder="Día" min="1" max="31">
+            <select  class="form-select col-3 m-2" id="month" style="max-width:20%;">
                 <option selected value="1">Enero</option>
                 <option value="2">Febrero</option>
                 <option value="3">Marzo</option>
@@ -27,9 +27,9 @@
                 <option value="11">Noviembre</option>
                 <option value="12">Diciembre</option>
               </select>
-              <input type="number" class="col-2" id="year" placeholder="Año" min="1" max="2023" >
+              <input type="text" class="col-3 m-2" id="year" placeholder="Año" min="1" max="2023" >
         </div>
-        <button onclick="calculateDate()" id="calculateDate" type="button" class="btn btn-primary col-4">Calcular</button>
+        <button onclick="calculateDate()" id="calculateDate" type="button" class="btn btn-primary" >Calcular</button>
         <p id="dateInformation" class="my-5"></p>
     </main>
 

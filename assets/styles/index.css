@@ -5,3 +5,15 @@ input, select, option{
     border: 1px solid gainsboro;
     margin: 5px;
 }
+
+.error {
+    background-color: red;
+}
+
+.btnVisible{
+    visibility: visible;
+}
+
+.btnOff{
+    display : 'none'
+}
